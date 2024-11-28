@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Marcellus+SC&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid ; */
+    /* overflow-x: hidden; */
+    
+    p{
+        font-family: "Jost", Roboto, sans-serif;
+    }
+   
+ h1,h2,h3{
+    font-family: "Marcellus", Roboto, sans-serif;
+    letter-spacing: 3px;
+}
+h4,h5,h6{
+    font-family: "Jost", Roboto, sans-serif;
+}
+}
+#navr{
+    font-family: "Marcellus", Roboto, sans-serif ;
+    color: black;
+    
+}
+
+#header{
+    font-size: 65px;
+}
+@media(max-width:768px){
+    #header{
+        font-size: 43px;
+    }
+   
+}
+@media(max-width:425px){
+    #header{
+        font-size: 35px;
+    }
+   
+}
+
+@media(max-width:320px){
+    #header{
+        font-size: 25px;
+    }
+}
+
+#paragraph{
+    color: rgba(146, 146, 146, 1);
+    font-size: 20px;
+
+}
+@media(max-width:768px){
+    #paragraph{
+        font-size: 20px;
+    }
+   
+}
+@media(max-width:425px){
+    #paragraph{
+        font-size: 15px;
+        /* border: 1px solid black; */
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.card-title{
+    font-size: 22px;
+}
+.card-text{
+    color: rgba(164, 164, 164, 1);
+    padding: 10px;
+    font-size: 18px;
+}
+#bn1{
+    color:black;
+}
+#bn2{
+    color:black;
+}
+#bn3{
+    color:black;
+    
+}
+#hr-1{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#hr-1 h3{
+    letter-spacing: 1px;
+}
+.hr-2{
+    width: 20%;
+    text-align: center;
+}
+.hr-2 p{
+    font-size: 18px;
+    width: 85%;
+    margin-left: 20px;
+}
+.hr-2 i{
+    font-size: 30px;
+}
+#hr-3 h3{
+    width: 100%;
+    font-size: 30px;
+}
+#cn5{
+    height: 100vh;
+}
+#video{
+    width: 100%;
+}
+#video img{
+    width: 80%;
+}
+#navbarDropdown{
+    color: rgba(124, 124, 124,1);
+}
+
+.link-active{
+    text-decoration: none;
+    color: black;
+}
+#Navbar{
+    font-family: "Marcellus", Roboto, sans-serif;;
+}
+
+@media(max-width:769px){
+    #wrap{
+        flex-wrap:wrap ;
+    }
+}
+
+#width{
+    width: 100%;
+}
+
+#card1:hover{
+    transform: scale(0.95);
+}
+#card1{
+    transition: 0.3s;
+}
+
+#inhover:hover{
+    transform: scale(0.95);
+}
+#inhover{
+    transition: 0.3s;
+}
+
+.card-title:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:425px){
+    #wrap2{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:769px){
+    #wrap3{
+        flex-wrap: wrap;
+        text-align: center;
+        height: 500px;
+    }
+}
+
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.shadow-effect:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
